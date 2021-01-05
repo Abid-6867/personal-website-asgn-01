@@ -56,7 +56,13 @@ h3{
     border-radius: 10px;
     font-size: 16px;
     font-weight: 700;
+    transition: 0.3s;
 }
+.link-button:hover{
+    padding: 15px 25px;
+    border-radius: 20px;
+}
+
 .para-alaign{
 
     padding-bottom: 20px;
@@ -65,22 +71,27 @@ h3{
 }
 .quarter-width{
 
-    width: 30%;
+    width: 27%;
     float: left;
-    padding-left: 1%;
-    margin-left: 1%;
+    margin: 0% 3%;
 }
 
 .quarter-width img {
 
+    width: 98%;
+    transition: 0.3s;
+}
+.quarter-width img:hover{
+
     width: 100%;
+    border: 5px solid orangered;
 }
 .latest-work{
 
-    height: 400px;
+    height: 700px;
     background-image: url("images/latest-work-bg.png");
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     padding-top: 20px;
     padding-bottom: 30px;
     
@@ -92,12 +103,12 @@ h3{
 }
 .top-footer{
 
-    height: 600px;
+    height: 700px;
     background-image: url("images/footer-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     padding: 0 30px;
-    margin-top: 300px;
+    margin-top: 100px;
 }
 .testimonial{
 
